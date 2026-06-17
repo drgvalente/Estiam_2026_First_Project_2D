@@ -831,7 +831,7 @@ MonoBehaviour:
   splashDuration: 3
   loadingPanel: {fileID: 823444485}
   loadProgressBar: {fileID: 30148356}
-  loadProgressText: {fileID: 0}
+  loadProgressText: {fileID: 1985150476}
 --- !u!1 &1256993912
 GameObject:
   m_ObjectHideFlags: 0
