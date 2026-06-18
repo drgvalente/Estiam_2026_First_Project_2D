@@ -83,4 +83,8 @@ public class PlayerController : MonoBehaviour
         }
         Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
     }
+
+    // Properties for future upgrades (called by the Upgrade System)
+    public void IncreaseSpeed(float amount) => speed += amount;
+    public void DecreaseFireRate(float amount) => fireRate = Mathf.Max(0.05f, fireRate - amount);
 }
